@@ -8,4 +8,7 @@ class BlogsController < ApplicationController
     @blog = Blog.new
   end
 
+  def create
+
+  end
 end
