@@ -26,6 +26,10 @@ class BlogsController < ApplicationController
     @blog = Blog.find(params[:id])
   end
 
+  def update
+
+  end
+
   private
 
   def blog_params
