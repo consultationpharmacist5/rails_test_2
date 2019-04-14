@@ -9,6 +9,6 @@ class BlogsController < ApplicationController
   end
 
   def create
-
+    Blog.create(title: params[:blog][:title], content: params[:blog][:content])
   end
 end
